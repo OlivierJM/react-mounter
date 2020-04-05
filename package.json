@@ -21,32 +21,32 @@
     "test": "npm run lint && npm run testonly"
   },
   "devDependencies": {
-    "babel-cli": "6.x.x",
-    "babel-core": "6.x.x",
-    "babel-eslint": "4.x.x",
-    "babel-plugin-react-require": "2.x.x",
-    "babel-plugin-transform-runtime": "6.x.x",
-    "babel-polyfill": "6.x.x",
-    "babel-preset-es2015": "6.x.x",
-    "babel-preset-react": "6.x.x",
-    "babel-preset-stage-2": "6.x.x",
-    "chai": "3.x.x",
-    "eslint": "4.18.x",
-    "eslint-plugin-babel": "2.x.x",
-    "eslint-plugin-react": "3.x.x",
-    "mocha": "2.x.x",
-    "mock-require": "1.x.x",
-    "nodemon": "1.7.x",
-    "react": "^15.0.0",
-    "react-dom": "^15.0.0",
-    "sinon": "1.17.x"
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.3",
+    "babel-eslint": "4.1.8",
+    "babel-plugin-react-require": "2.1.0",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-polyfill": "6.26.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "chai": "3.5.0",
+    "eslint": "4.18.2",
+    "eslint-plugin-babel": "2.2.0",
+    "eslint-plugin-react": "3.16.1",
+    "mocha": "2.5.3",
+    "mock-require": "1.3.0",
+    "nodemon": "1.7.3",
+    "react": "15.6.2",
+    "react-dom": "15.6.2",
+    "sinon": "1.17.7"
   },
   "peerDependencies": {
     "react": "0.14.x || 15.x.x || 16.x.x",
     "react-dom": "0.14.x || 15.x.x || 16.x.x"
   },
   "dependencies": {
-    "babel-runtime": "6.x.x",
-    "domready": "1.x.x"
+    "babel-runtime": "6.26.0",
+    "domready": "1.0.8"
   }
 }
