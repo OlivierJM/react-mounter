@@ -1,10 +1,10 @@
 {
-  "name": "react-mounter",
+  "name": "@olivierjm/react-mounter",
   "version": "1.2.0",
   "description": "React Mounter lets you mount React components to DOM easily.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kadirahq/react-mounter.git"
+    "url": "https://github.com/SparkEdUAB/react-mounter.git"
   },
   "license": "MIT",
   "options": {
