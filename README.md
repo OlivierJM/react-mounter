@@ -22,16 +22,16 @@ Additionally, React Mounter can work as a simple Layout Manager where you can us
 Install with:
 
 ```
-npm i --save react-mounter react react-dom
+npm i --save @olivierjm/react-mounter react react-dom
 ```
 
-> `react` and `react-dom` are peerDependencies of `react-mounter`. So, you need to install them into your app manually.
+> `react` and `react-dom` are peerDependencies of `@olivierjm/react-mounter`. So, you need to install them into your app manually.
 
 Then let's mount a component.
 
 ```js
 import React from "react";
-import { mount } from "react-mounter";
+import { mount } from "@olivierjm/react-mounter";
 
 const WelcomeComponent = ({ name }) => <p>Hello, {name}</p>;
 
@@ -40,7 +40,7 @@ mount(WelcomeComponent, { name: "Arunoda" });
 
 ## Using as a Layout Manager
 
-You can user `react-mounter` as a layout Manager for Flow Router. Here's how to do it.
+You can user `@olivierjm/react-mounter` as a layout Manager for Flow Router. Here's how to do it.
 
 Let's say we've a layout called MainLayout.
 
@@ -91,7 +91,7 @@ mount(MainLayout, {
 By default React Mounter render our components into a DOM node called `react-root`. But, you can configure if by like below:
 
 ```js
-const {mount, withOptions} from `react-mounter`;
+const {mount, withOptions} from `@olivierjm/react-mounter`;
 const mount2 = withOptions({
     rootId: 'the-root',
     rootProps: {'className': 'some-class-name'}
