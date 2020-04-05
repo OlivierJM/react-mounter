@@ -627,10 +627,10 @@ babel-plugin-react-display-name@^1.0.3:
   resolved "https://registry.yarnpkg.com/babel-plugin-react-display-name/-/babel-plugin-react-display-name-1.0.3.tgz#754fe38926e8424a4e7b15ab6ea6139dee0514fc"
   integrity sha1-dU/jiSboQkpOexWrbqYTne4FFPw=
 
-babel-plugin-react-require@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-react-require/-/babel-plugin-react-require-2.1.0.tgz#ba3e2e383e7089089d1f61b324992b8b27daa305"
-  integrity sha1-uj4uOD5wiQidH2GzJJkriyfaowU=
+babel-plugin-react-require@3.1.3:
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/babel-plugin-react-require/-/babel-plugin-react-require-3.1.3.tgz#ba3d7305b044a90c35c32c5a9ab943fd68e1638d"
+  integrity sha512-kDXhW2iPTL81x4Ye2aUMdEXQ56JP0sBJmRQRXJPH5FsNB7fOc/YCsHTqHv8IovPyw9Rk07gdd7MVUz8tUmRBCA==
 
 babel-plugin-remove-console@^1.0.1:
   version "1.0.1"
