@@ -3,7 +3,14 @@
 React Mounter lets you mount React components to DOM easily.
 
 Note: This is a fork of [react-mounter](https://github.com/kadirahq/react-mounter) from kadira-hq
-it was no longer maintained and our project heavily depends on it.
+it was no longer maintained and our project heavily depends on it, My plan is to keep this fork updated and recognize its importance.
+
+Todo:
+
+- Remove SSR in this version
+- Make sure all deps are up to date
+- Include the github package
+- Expose only one default export in the whole package
 
 > React Mounter supports Server Side Rendering when used with [FlowRouter](https://github.com/kadirahq/flow-router).
 
@@ -30,12 +37,12 @@ npm i --save @olivierjm/react-mounter react react-dom
 Then let's mount a component.
 
 ```js
-import React from "react";
-import { mount } from "@olivierjm/react-mounter";
+import React from 'react';
+import { mount } from '@olivierjm/react-mounter';
 
 const WelcomeComponent = ({ name }) => <p>Hello, {name}</p>;
 
-mount(WelcomeComponent, { name: "Arunoda" });
+mount(WelcomeComponent, { name: 'Arunoda' });
 ```
 
 ## Using as a Layout Manager
