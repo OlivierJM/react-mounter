@@ -37,13 +37,13 @@
     "mocha": "8.1.1",
     "mock-require": "3.0.3",
     "nodemon": "2.0.4",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
     "sinon": "9.0.3"
   },
   "peerDependencies": {
-    "react": "0.14.x || 15.x.x || 16.x.x",
-    "react-dom": "0.14.x || 15.x.x || 16.x.x"
+    "react": "0.14.x || 15.x.x || 16.x.x || 17.x",
+    "react-dom": "0.14.x || 15.x.x || 16.x.x || 17.x"
   },
   "dependencies": {
     "babel-runtime": "6.26.0",
