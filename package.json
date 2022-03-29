@@ -42,8 +42,8 @@
     "sinon": "11.1.1"
   },
   "peerDependencies": {
-    "react": "0.14.x || 15.x.x || 16.x.x",
-    "react-dom": "0.14.x || 15.x.x || 16.x.x"
+    "react": "16.x.x || 17.x.x",
+    "react-dom": "16.x.x || 17.x.x"
   },
   "dependencies": {
     "babel-runtime": "6.26.0",
